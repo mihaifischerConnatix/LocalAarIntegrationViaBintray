@@ -1,4 +1,4 @@
-# LocalAarIntegrationViaBintray
+# Local .aar dependency in a framework distribuited ia Bintray
 Local .aar integration into another .aar that is published on Bintray
 
 ## Problem:
@@ -20,7 +20,7 @@ W/System.err:     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
 ```
 - When opening unziping our framework, you can find the OM .aar in the ```libs``` folder, but when trying to unzipit it, it's empty. 
 
-## Setup
+## Background Setup 
 ### framework project
 - Our setup is consisting of an android project, that has a module as dependency. 
 - This module is an Android framework we share with publishers through [Bintray](https://bintray.com/connatix/ConnatixPlayer/ConnatixPlayerSDK). 
