@@ -22,7 +22,7 @@ W/System.err:     at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
 
 ## Background Setup 
 ### framework project
-- Our setup is consisting of an android project, that has a module as dependency. 
+- Our setup is consisting of an android project written in __Kotlin__, that has a module as dependency. 
 - This module is an Android framework we share with publishers through [Bintray](https://bintray.com/connatix/ConnatixPlayer/ConnatixPlayerSDK). 
 - We need to integrate in this framework another framework that is kept in the ```libs``` folder 
 - You can take it from here: [om sdk](https://github.com/mihaifischerConnatix/LocalAarIntegrationViaBintray/blob/master/omsdk-android-1.3.1-release.aar)
